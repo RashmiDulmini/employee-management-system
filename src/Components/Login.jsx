@@ -12,7 +12,7 @@ export default function Login() {
 
     const handleSubmit = (event) =>{
       event.preventDefault()
-      axios.post('http://localhost:3000/auth/adminlogin')
+      axios.post('http://localhost:3000/auth/adminlogin', values)
       .then(result => console.log(result))
       .catch(err => console.log(err))
     }
@@ -34,7 +34,7 @@ export default function Login() {
                 onChange={(e) => setValues({...values, password : e.target.value})}className='form-control rounded-0'></input>
             </div>
 
-            <button className='btn btn-success w-100 rounded-0 mb-2'>Logins</button>
+            <button className='btn btn-success w-100 rounded-0 mb-2'>Login</button>
 
             <div className='mb-1'>
               <input type='checkbox' name='tick' id='tick' className='me-2'/> 
