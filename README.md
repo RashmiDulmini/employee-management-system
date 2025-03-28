@@ -56,9 +56,13 @@ This project is a **Full Stack Employee Management System** built using **React.
 
 ## Security Measures
 ✅ **JWT Authentication** to secure user login sessions
+
 ✅ **Password Hashing** using `bcrypt`
+
 ✅ **Role-based Access Control** to restrict actions
+
 ✅ **Validation & Error Handling** to ensure data integrity
+
 
 
 
